@@ -3,7 +3,7 @@ const h2=document.querySelector('h2')
 const h3=document.querySelector('h3')
 
 function randomColor(){
-    let r= Math.floor(Math.random() * 256)
+    let r= 0
     let g= Math.floor(Math.random() * 256)
     let b= Math.floor(Math.random() * 256)
     return `rgb(${r},${g},${b})`
